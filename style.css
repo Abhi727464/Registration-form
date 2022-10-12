@@ -1,0 +1,40 @@
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 11.9% 17%,
+    rgba(73, 96, 108, 1) 0%,
+    rgba(62, 80, 89, 1) 90%
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.registation-form {
+  background-color: rgb(251, 250, 248);
+  width: 600px;
+  height: 550px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 20px auto;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.heading::after {
+  content: "";
+  width: 400px;
+  height: 4px;
+  position: absolute;
+  background: black;
+  transform: translateY(87px);
+  right: 35%;
+  border-radius: 20px;
+}
+.submit-btn:hover {
+  background: #002661;
+}
